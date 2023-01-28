@@ -1,0 +1,1 @@
+let restaurant = document.querySelectorAll(".restaurant-item");
