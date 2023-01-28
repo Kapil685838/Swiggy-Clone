@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header-section styling start */
+.navbar {
+    height: 80px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+}
+
+.navbar .nav {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-left .location-div{
+    cursor: pointer;
+    font-size: 14px;
+    color: #686b78;
+    display: flex;
+    gap: 7px;
+}
+.nav-left .location-div span:first-child {
+    color: black;
+}
+.location-div .other{
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+.nav-left .location-div:hover {
+    color: #98999f;
+    
+}
+.nav-left .location-div:hover span:first-child {
+    color: #fc8019;
+    border-bottom: 2px solid #fc8019;
+}
+
+.location-div .down-arrow {
+    color: #fc8019;
+}
+
+.nav .nav-right .nav-right-list{
+    display: flex;
+    height: 100%;
+}
+.nav .nav-right .nav-right-list .nav-right-items {
+    height: 100%;
+    list-style: none;
+    margin-right: 50px;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.nav .nav-right .nav-right-list .nav-right-items:last-child {
+    margin-right: 0;
+}
+.nav .nav-right .nav-right-list .nav-right-items a {
+    display: flex;
+    gap: 7px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+.nav .nav-right .nav-right-list .nav-right-items:nth-child(2) span:last-child sup {
+    color: #fc8019;
+    font-size: 11px;
+}
+/* header-section styling end */
+
+/* Carasoul-section styling start */
+.carasoul {
+    background-color: #171a29;
+}
+.carasoul .carasoul-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.carasoul .carasoul-content .carasoul-inner-content {
+    display: flex;
+    gap: 50px;
+}
+.carasoul .carasoul-content .carasoul-inner-content .carasoul-item {
+    width: 25%;
+    cursor: pointer;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+    transform: translateZ(0);
+}
+.carasoul .carasoul-content .carasoul-inner-content .carasoul-item:hover {
+    transform: scale(1.1);
+}
+.carasoul .carasoul-content .carasoul-inner-content .carasoul-item img {
+    width: 100%;
+}
+/* Carasoul-section styling end */
+
+/* restaurants-section styling start */
+.restaurant .restaurant-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/* restaurants-section styling end */
