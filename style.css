@@ -120,8 +120,10 @@
 /* Carasoul-section styling end */
 
 /* restaurants-section styling start */
+/* restaurant header */
 .active {
     border-bottom: 1px solid black;
+    font-weight: 600;
 }
 .restaurant .restaurant-content {
     max-width: 1200px;
@@ -166,7 +168,7 @@
     gap: -5px;
 }
 .restaurant .restaurant-content .restaurant-header .restaurant-right .restaurant-item:last-child .filter-icon span {
-    display: block;
+    /* display: block; */
     width: 30px;
     position: relative;
     transform: rotate(-90deg);
@@ -192,7 +194,29 @@
     left: 50%;
     transform: translate(-120%, -50%);
     background-color: #f97910;
+    transition: all .5s ease;
+}
+.restaurant .restaurant-content .restaurant-header .restaurant-right .restaurant-item:last-child .filter-icon:hover span .filter-box {
+    transform: translate(20%, -50%);
 }
 /* filter icon end */
-
-/* restaurants-section styling end */
+/* restaurant content */
+.restaurant .restaurant-content .restaurants-details {
+    padding-top: 20px;
+}
+.restaurant .restaurant-content .restaurants-details .restaurants-card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    gap: 16px;
+}
+.restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item {
+    padding: 15px;
+    border: 1px solid gray;
+}
+.restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item a {
+    text-decoration: none;
+}
+.restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item a .restaurants-card-img img {
+    width: 100%;
+}
+/* restaurants-section styling ends */
