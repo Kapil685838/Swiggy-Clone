@@ -1,3 +1,54 @@
+@media screen and (min-width: 1200px){
+    
+}
+@media screen and (max-width: 992px){
+    .navbar {
+        height: 60px;
+    }
+    .navbar .nav {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .nav .nav-right .nav-right-list .nav-right-items {
+        margin-right: 30px;
+    }
+
+    .restaurant .restaurant-content .restaurant-header .restaurant-right {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item a .restaurants-card-info .card-title {
+        font-size: 14px;
+    }
+
+    .restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item a .restaurants-card-info .card-text {
+        font-size: 9px;
+    }
+
+    .restaurant .restaurant-content .restaurants-details .restaurants-card-grid .restaurants-card-item a .rating-time-price {
+        font-size: 11px;
+    }
+
+    .footer-container .footer-content {
+        flex-wrap: wrap;
+        row-gap: 25px;
+        justify-content: center;
+    }
+
+    .restaurant .restaurant-content .restaurant-header .restaurant-left {
+        font-size: 22px;
+    }
+
+    .restaurant .restaurant-content .restaurants-details .restaurants-card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, calc(100% / 3));
+        gap: 2px;
+    }
+}
 @media screen and (min-width: 768px){
+    
+}
+@media screen and (min-width: 576px){
     
 }

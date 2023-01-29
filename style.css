@@ -5,6 +5,9 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.pad-15 {
+    padding: 0 15px;
+}
 /* header-section styling start */
 .navbar {
     height: 80px;
@@ -295,6 +298,7 @@
 }
 .footer-container .footer-content .foot-col {
     width: 25%;
+    min-width: 300px;
 }
 .footer-container .footer-content .foot-col .title {
     color: #808080;
