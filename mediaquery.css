@@ -16,6 +16,10 @@
         padding-top: 8px;
         padding-bottom: 8px;
     }
+    .nav-left a svg {
+        height: 34 !important;
+        width: 24 !important;
+    }
     .nav .nav-right .nav-right-list .nav-right-items {
         margin-right: 30px;
     }
@@ -83,5 +87,15 @@
     .restaurant .restaurant-content .restaurants-details .restaurants-card-grid {
         grid-template-columns: repeat(1, 100%);
         gap: 2px;
+    }
+
+    .restaurant .restaurant-content .restaurant-header .restaurant-right .restaurant-item {
+        display: none;
+    }
+    .restaurant .restaurant-content .restaurant-header .restaurant-right .restaurant-item:last-child {
+        display: inline-flex;
+    }
+    .restaurant .restaurant-content .restaurant-header .restaurant-right {
+        font-size: 14px;
     }
 }
