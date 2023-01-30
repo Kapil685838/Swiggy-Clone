@@ -20,8 +20,11 @@
         height: 34 !important;
         width: 24 !important;
     }
-    .nav .nav-right .nav-right-list .nav-right-items {
-        margin-right: 30px;
+    .navbar .nav .nav-toggle-btn {
+        display: block;
+    }
+    .nav .nav-right {
+        display: none;
     }
 
     .restaurant .restaurant-content .restaurant-header .restaurant-right {

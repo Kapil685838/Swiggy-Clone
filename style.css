@@ -25,7 +25,13 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.navbar .nav .nav-toggle-btn {
+    font-size: 34px;
+    display: none;
 }
 
 .nav-left {
